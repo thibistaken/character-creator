@@ -28,12 +28,22 @@
 
 .characterWrapper {
   min-height: 500px;
-  height: 500px;
+  min-height: 500px;
   position: fixed;
-  top: 128px;
-  right: 128px;
+  top: 15%;
+  left: 60%;
+  bottom: 5%;
 }
 
 .controlColumn {
   max-width: 50%;
+  position: relative;
+}
+
+.perspectiveEffect {
+  position: fixed;
+  top: 60%;
+  bottom: 0;
+  background-color: hsl(195deg, 20%, 86%);
+  width: 100%;
 }
